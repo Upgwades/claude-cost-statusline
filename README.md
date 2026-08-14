@@ -12,13 +12,23 @@ changes to isolate the cost of the prompt that just finished.
 
 ## Install
 
+### From a local path (no GitHub needed)
+
+```
+/plugin marketplace add /Users/will/repos/claude-cost-statusline
+/plugin install cost-statusline@cost-statusline-marketplace
+```
+
+Adjust the path if the repo lives elsewhere on your machine.
+
+### From GitHub (once pushed)
+
 ```
 /plugin marketplace add <owner>/cost-statusline
 /plugin install cost-statusline@cost-statusline-marketplace
 ```
 
-(Replace `<owner>/cost-statusline` with wherever this repo ends up — a GitHub
-`owner/repo` slug, or a local path for testing: `/plugin marketplace add ./cost-statusline`.)
+Replace `<owner>/cost-statusline` with the real `owner/repo` slug.
 
 **One manual step is unavoidable:** Claude Code does not load a `statusLine`
 key from a plugin's own settings — you point your own `~/.claude/settings.json`
