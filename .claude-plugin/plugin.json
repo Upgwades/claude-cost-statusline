@@ -1,0 +1,8 @@
+{
+  "name": "cost-statusline",
+  "displayName": "Per-Prompt Cost Statusline",
+  "version": "1.0.0",
+  "description": "Shows per-prompt and cumulative session cost (USD) in the Claude Code statusline.",
+  "author": { "name": "Will Irwin" },
+  "license": "MIT"
+}

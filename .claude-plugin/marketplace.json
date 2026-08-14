@@ -1,0 +1,12 @@
+{
+  "name": "cost-statusline-marketplace",
+  "owner": { "name": "Will Irwin" },
+  "plugins": [
+    {
+      "name": "cost-statusline",
+      "source": "./",
+      "description": "Per-prompt + session cost badge in the Claude Code statusline.",
+      "version": "1.0.0"
+    }
+  ]
+}
