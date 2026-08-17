@@ -1,6 +1,8 @@
-# cost-statusline
+![AI-Assisted Development](https://img.shields.io/badge/AI--Assisted-Development-informational)
+# Cost Statusline
 
-Claude Code statusline badge showing **per-prompt cost** and **cumulative session cost**, in USD.
+Claude Code statusline badge showing **per-prompt cost** and **cumulative session cost**, in USD. 
+Extremely bare bones, meant as a quick dirty means to keep track of my tab and help me know when I should /compact.
 
 ```
 Sonnet 5 | 💰 $0.0700 last · $0.1200 session
@@ -64,3 +66,7 @@ keeps one small state file per session under `~/.claude/hook-state/`, and
 whenever `prompt_id` changes it records `total_cost_usd(now) − total_cost_usd(at
 previous prompt)` as the finished prompt's cost. That figure is displayed
 until the next prompt completes.
+
+## Disclaimer
+
+Exclusively written by an LLM.
